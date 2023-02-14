@@ -1,0 +1,47 @@
+#MainDiv{
+  padding: 2rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: rgb(0, 107, 230);
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: #dddddd;
+}
+
+tr td{
+  width: 15rem;
+}
+
+tr th:nth-child(2){
+  text-align: end;
+}
+
+tr td:nth-child(3){
+  width: 0rem;
+}
+
+.mountRow{
+  text-align: right;
+  width: 2rem;
+}
+
+th:nth-child(3){
+  color: red;
+  text-align: center;
+}
+
+button{
+  padding: 0.2rem;
+  background: none;
+  border-color: aliceblue;
+  color: red;
+}

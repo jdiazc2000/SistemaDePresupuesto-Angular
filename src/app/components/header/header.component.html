@@ -1,0 +1,30 @@
+<div class="main_div">
+  <div class="TotalPres_box">
+    <h1>Presupuesto Disponible:</h1>
+    <p>{{ AvalPres | currency:'SOL':'S/'}}</p>
+  </div>
+  <div class="LabelsBox">
+    <div class="totalincome_box">
+      <div class="IncomeData">
+        <div class="header">
+          <p>INGRESOS</p>
+        </div>
+        <div class="TotalIncome_div">
+          <p>{{TotalIncome | currency:'SOL':'S/'}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="totalexpenses_box">
+        <div class="ExpensesData">
+          <div class="header">
+            <p>EGRESOS</p>
+          </div>
+          <div class="TotalExpenses_div">
+            <p>- {{TotalExpenses | currency:'SOL':'S/'}}</p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>

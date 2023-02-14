@@ -1,0 +1,60 @@
+
+.main_div{
+    color: white;
+    
+    text-align: center;
+    background: url(../../../assets/bg-pattern.png), #7b4397;
+    background: url(../../../assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
+    background: url(../../../assets/bg-pattern.png), linear-gradient(to left, #7b4397, #ff4350)
+}
+
+.TotalPres_box{
+    padding-top: 15px;
+    height: 7rem;
+}
+
+.TotalPres_box h1{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.TotalPres_box p{
+    font-size: 3rem;
+}
+
+.totalincome_box{
+    margin: 0 auto;
+    max-width: 20rem;
+    background-color: rgb(0, 107, 230);
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.totalincome_box .IncomeData{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.totalexpenses_box .ExpensesData{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+
+.totalexpenses_box{
+    margin: 0 auto;
+    max-width: 20rem;
+    background-color: rgb(248, 107, 47);
+    height: 2.5rem;
+}
+
+.LabelsBox{
+    padding-bottom: 20px;
+}
+
+.header{
+    font-weight: bold;
+}
+
+

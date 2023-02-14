@@ -1,0 +1,24 @@
+<div id="MainDiv">
+    <h1>EGRESOS</h1>
+  
+    <div *ngIf="ActualExpLength != 0 else NoData">
+      <div class="Table">
+        <table>
+          <tr>
+            <th>Descripción</th>
+            <th>Monto</th>
+            <th><i class="fa-solid fa-trash"></i></th>
+          </tr>
+          <tr *ngFor="let expenses of Egresos; let i = index" [attr.data]="i" >
+            <td>{{ expenses.text }}</td>
+            <td class="mountRow">{{ expenses.expensesMount | currency:'SOL':'S/' }}</td>
+            <td><button (click)="DeleteExpense(expenses)"><i class="fa-solid fa-x"></i></button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+    <ng-template #NoData><h1>Datos no disponibles</h1></ng-template>
+  </div>
+  
